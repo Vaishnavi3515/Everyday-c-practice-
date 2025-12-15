@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+#include<string>
+using namespace std;
+int main()
+{
+    string str1 = “Welcome”;    
+		string str2 = "Home";    	  
+		cout<<str1+str2<<endl; //Concatenates two   strings    
+		cout<<str1.append(str2); //Append str1 with   str2
+		cout<<str1+" "+str2+ " "+"Joy“<<endl;	
+		cout<< "Length of str1: "<<str1.length()	
+		return 0;
+}
